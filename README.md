@@ -1,5 +1,5 @@
 # pixels
-> extension of `grid` for manipulating `ImageData`
+> simple pixel manipulation lib
 
 ```javascript
 var imageData = context.getImageData(0, 0, width, height)
