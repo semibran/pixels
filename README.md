@@ -1,2 +1,2 @@
 # pixels
-simple pixel manipulation lib
+> extension of `grid` for manipulating `ImageData`
