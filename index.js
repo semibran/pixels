@@ -1,6 +1,6 @@
 var context = document.createElement('canvas').getContext('2d')
 
-var Grid = require('./grid')
+var Grid = require('grid')
 var utils = require('./utils')(context)
 
 module.exports = function Pixels(width, height) {

@@ -1,5 +1,5 @@
 # pixels
-> simple pixel manipulation lib
+> Simple browser-based pixel manipulation
 
 ```javascript
 var imageData = context.getImageData(0, 0, width, height)
