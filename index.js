@@ -54,9 +54,9 @@ module.exports = function Pixels(width, height) {
   }
 
   function each(callback) {
-    grid.each((x, y, value) => {
+    grid.each((value, x, y) => {
       var color = colors[value]
-      callback(x, y, color)
+      callback(color, x, y)
     })
     return pixels
   }
